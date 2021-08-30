@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/HelveticaNeueBoldCondensed.eot');
+    src: local('../fonts/Helvetica Neue Condensed Bold'), local('HelveticaNeueBoldCondensed'),
+        url('../fonts/HelveticaNeueBoldCondensed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueBoldCondensed.woff2') format('woff2'),
+        url('./fonts/HelveticaNeueBoldCondensed.woff') format('woff'),
+        url('../fonts/HelveticaNeueBoldCondensed.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.top-menu {
+    background: url(../img/background-top.png);
+}
+
+.container .top-menu{
+    height: 38px;
+}
+
+ul {
+    text-align: right;
+    margin-right: 20px;
+
+
+
+}
+
+li a {
+   color: #60b5ed;
+   text-decoration: none;
+   padding: 10px;
+   text-align: center;
+   display: inline-block;
+   vertical-align: middle;
+
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    bottom: 0;
+    margin: 0;
+
+}
+
+li a:hover {
+    color: white;
+    background-color: #4eabda;
+}
+
+li img{
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+li:nth-child(6){
+      border-left: 1px solid #4eabda;
+      text-align: center;
+
+}
+
+li:nth-child(6):hover{
+    background-color: #4eabda;
+}
+
+li:nth-child(6) a{
+    color: white;
+    padding-left: 10px;
+
+}
+
+
+li:nth-child(7) a{
+    color: white;
+    background-color: #4eabda;
+    border: 2px solid #4299d2;
+    padding: 8px;
+}
+
+body {
+    background: url(../img/background-photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container2 {
+    padding-top: 9%;
+}
+
+.line {
+    color: #999999;
+}
+
+.line:before, .line:after {
+  content:'\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+  text-decoration: line-through;
+  margin: auto 0.5em;
+}
+
+.cadastre {
+    margin: 0 auto;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 60%);
+    text-align: center;
+    height: 615px;
+    width: 560px;
+}
+
+.text {
+    color: white;
+    padding: 20px 0 20px 0;
+    font-size: 20px;
+}
+
+.photo {
+    padding-top: 35px;
+    padding-bottom: 10px;
+    border-top: 2px solid grey;
+}
+
+.inputs {
+    padding: 10px 0;
+}
+
+.inputs input {
+    height: 35px;
+    width: 275px;
+    background: black;
+
+}
+
+input::placeholder {
+    color: white;
+    padding: 10px 0 10px 20px;
+}
+
+input:hover {
+    background: #1b5288;
+}
+
+.checkbox {
+    margin: 15px 0px 10px 0px;
+}
+
+.checkbox label {
+    color: white;
+}
+
+.account {
+
+}
+
+.account a{
+    text-decoration: none;
+    display: inline-block;
+    background: url(../img/account.png);
+    color: white;
+    padding: 9px 14px;
+    margin: 10px 0;
+
+}
+
+.footer-text {
+    color: white;
+    margin: 10px 0 10px 0;
+}
